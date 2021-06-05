@@ -68,6 +68,8 @@
   <h6>
       六级标题
   </h6>
+  
+  <hgroup>逻辑相关的标题分为一组</hgroup>
   ~~~
 
   
@@ -85,8 +87,6 @@
     </body>
     ~~~
 
-- 
-  
 - 工具推荐
   
   - zeal<[Download · Zeal (zealdocs.org)](https://zealdocs.org/download.html#windows)>
@@ -100,10 +100,13 @@
   </p>
   ~~~
 
-- 加粗标签
+- 强调标签
 
   ~~~html
-  <b>
+  <b> 加粗
+  <strong>表示强调</strong>
+  <blockquote>表示引用，头部缩进tab</blockquote>
+  <q></q>
   ~~~
 
 - 特殊符号输入需要实用转义字符 &；内容放在中间
