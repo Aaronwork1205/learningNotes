@@ -26,6 +26,16 @@
 
   - 用于标注网页的字符集，避免乱码的问题， 写于head标签内
 
+  - 设置元数据。
+
+  - 基本属性
+
+    - charset 字符集
+    - name 指定数据的名称
+    - content 指定数据的内容
+    - http-equiv = "refresh"  content=“3； url = 目标网址”  重定向标签
+    - ...
+
   - 常用字符集 utf-8万国码
 
     ~~~ html
@@ -42,6 +52,26 @@
     <title> 标题</title>
     ~~~
 
+- h*标签
+
+  ~~~html 
+  <h1>
+      一级标题
+  </h1>
+  <h2>
+      二级标题
+  </h2>
+  <h3>
+      三级标题
+  </h3>
+  ...
+  <h6>
+      六级标题
+  </h6>
+  ~~~
+
+  
+
 - body标签
 
   - body是网页的子元素，表示网页的主题内容，所有可见内容应写在body中。
@@ -55,12 +85,13 @@
     </body>
     ~~~
 
-    
-
+- 
+  
 - 工具推荐
+  
   - zeal<[Download · Zeal (zealdocs.org)](https://zealdocs.org/download.html#windows)>
     - 用于离线查看html及其他语言文档的说明书。
-
+  
 - paragraph标签
 
   ~~~ html
@@ -83,4 +114,5 @@
   ...
   ~~~
 
-  
+
+- 
