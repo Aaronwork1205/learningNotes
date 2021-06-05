@@ -33,3 +33,30 @@
     ~~~
 
     
+
+- title标签
+
+  - title中的内容会显示在标题栏中，搜索引擎主要用title标签判断是否符合搜索内容。
+
+    ~~~html
+    <title> 标题</title>
+    ~~~
+
+- body标签
+
+  - body是网页的子元素，表示网页的主题内容，所有可见内容应写在body中。
+
+    ~~~ html
+    <body>
+        <h1>
+            <!-- h1 网页的一级标题 -->
+            网页的大标题
+        </h1>
+    </body>
+    ~~~
+
+    
+
+- 工具推荐
+  - zeal<[Download · Zeal (zealdocs.org)](https://zealdocs.org/download.html#windows)>
+    - 用于离线查看html及其他语言文档的说明书。
