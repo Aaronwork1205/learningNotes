@@ -60,3 +60,27 @@
 - 工具推荐
   - zeal<[Download · Zeal (zealdocs.org)](https://zealdocs.org/download.html#windows)>
     - 用于离线查看html及其他语言文档的说明书。
+
+- paragraph标签
+
+  ~~~ html
+  <p>
+      这是一个段落。
+  </p>
+  ~~~
+
+- 加粗标签
+
+  ~~~html
+  <b>
+  ~~~
+
+- 特殊符号输入需要实用转义字符 &；内容放在中间
+
+  ~~~html
+  &nbsp; 空格
+  &gt; 大于号
+  ...
+  ~~~
+
+  
